@@ -1,16 +1,19 @@
 {
   "name": "jsnes",
-  "version": "0.0.0",
   "description": "A JavaScript NES emulator",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bfirsh/jsnes.git"
+    "url": "git://github.com/moretti/jsnes.git"
   },
-  "license": "BSD",
+  "license": "GPL",
+  "version": "0.1.0",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.2.1",
-    "grunt-contrib-jshint": "~0.5.4"
+    "react-scripts": "0.7.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   }
 }

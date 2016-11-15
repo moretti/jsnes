@@ -8,19 +8,17 @@ Build
 
 To run locally:
 
-    $ docker-compose up
+    $ npm install
+    $ npm start
 
-And it'll be available at http://localhost
+And it'll be available at http://localhost:3000
 
 To build a distribution:
 
-    $ docker-compose run build grunt
+    $ npm run build
 
-This will create ``jsnes.js`` and ``jsnes-min.js`` in ``build/``.
+This will create an an optimized production build in ``build/``.
 
 Benchmark
 ---------
-
-The benchmark in ``test/benchmark.js`` is intended for testing JavaScript 
-engines. It does not depend on a DOM or Canvas element etc.
-
+TODO
